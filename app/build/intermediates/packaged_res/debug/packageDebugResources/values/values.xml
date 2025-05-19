@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_blue">#1E88E5</color>
+    <color name="accent_green">#4D9D4D</color>
+    <color name="accent_purple">#BB86FC</color>
+    <color name="accent_yellow">#FFD700</color>
+    <color name="background_dark">#121212</color>
+    <color name="black">#FF000000</color>
+    <color name="card_dark">#1A1A1A</color>
+    <color name="cashback_color">#FBC02D</color>
+    <color name="currency_color">#4CAF50</color>
+    <color name="disabled_gray">#555555</color>
+    <color name="divider_gray">#2A2A2A</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="transparent_black_60">#99000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">internshala_assignment</string>
+    <style name="Base.Theme.Internshala_assignment" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="CircleImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="Theme.Internshala_assignment" parent="Base.Theme.Internshala_assignment"/>
+</resources>

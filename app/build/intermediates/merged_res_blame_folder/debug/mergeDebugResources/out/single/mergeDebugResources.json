@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_user.png.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\user.png"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_arrow_forward.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\arrow_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_button_border.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\button_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_car.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\car.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_rupee.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\rupee.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_support.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\support.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_check_circle.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\check_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_arrow_back.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_edit.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_right_arrow.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\right_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_bank_balance.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\bank_balance.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_profile.png.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-debug-32:\\drawable_card_border.xml.flat",
+        "source": "C:\\Users\\pashv\\.gradle\\daemon\\8.11.1\\com.ashvinprajapati.internshala_assignment.app-main-34:\\drawable\\card_border.xml"
+    },
+    {
+        "merged": "com.ashvinprajapati.internshala_assignment.app-debug-32:/drawable_button_border.xml.flat",
+        "source": "com.ashvinprajapati.internshala_assignment.app-main-34:/drawable/button_border.xml"
+    }
+]

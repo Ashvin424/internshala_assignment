@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+        <!-- Background and Surface Colors -->
+        <color name="background_dark">#121212</color>
+        <color name="surface_dark">#1E1E1E</color>
+        <color name="card_dark">#1A1A1A</color>
+
+        <!-- Primary Text -->
+        <color name="text_primary">#FFFFFF</color>
+
+        <!-- Secondary / Subdued Text -->
+        <color name="text_secondary">#AAAAAA</color>
+
+        <!-- Accent Colors -->
+        <color name="accent_green">#4D9D4D</color>
+        <color name="accent_blue">#1E88E5</color>
+        <color name="accent_purple">#BB86FC</color>
+        <color name="accent_yellow">#FFD700</color>
+
+        <!-- Cashback and Currency -->
+        <color name="cashback_color">#FBC02D</color>
+        <color name="currency_color">#4CAF50</color>
+
+        <!-- Divider or Border -->
+        <color name="divider_gray">#2A2A2A</color>
+
+        <!-- Placeholder / Disabled -->
+        <color name="disabled_gray">#555555</color>
+
+        <!-- Transparent / Overlay -->
+        <color name="transparent_black_60">#99000000</color>
+
+</resources>

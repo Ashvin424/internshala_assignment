@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background_dark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/surface_dark"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/back_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/arrow_back"
+                        android:clickable="true"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Profile"
+                        android:textColor="@color/white"
+                        android:fontFamily="sans-serif"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/back_btn"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginLeft="15dp"
+                        />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/support_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:drawableLeft="@drawable/support"
+                        android:layout_marginEnd="10dp"
+                        android:text="support"
+                        android:textColor="@color/text_primary"
+                        android:background="@drawable/button_border"
+                        android:elevation="4dp"
+                        />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginTop="32dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="24dp"
+                    app:shapeAppearanceOverlay="@style/CircleImage"
+                    android:src="@drawable/user" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="user name"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/text_primary"
+                        android:layout_marginBottom="5dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="member since May, 2025"
+                        android:textSize="18dp"
+                        android:textColor="@color/text_secondary"
+                        android:layout_marginBottom="5dp"/>
+
+                </LinearLayout>
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/edit_image_btn"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/edit"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:contentDescription="edit"
+                    app:shapeAppearanceOverlay="@style/CircleImage"/>
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="@color/background_dark"
+                android:layout_margin="24dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    android:background="@drawable/card_border"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/car"
+                        android:padding="24dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="get to know your vehicle, inside out"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="@color/text_secondary"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CRED garage"
+                            android:fontFamily="sans-serif"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/text_primary"
+                            android:drawableRight="@drawable/arrow_forward"
+                            android:drawablePadding="24dp"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="32dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/check_circle"
+                        android:layout_margin="5dp"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="credit score"
+                            android:fontFamily="sans-serif"
+                            android:textColor="@color/text_secondary"
+                            android:textSize="15sp"
+                            android:layout_margin="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="• REFRESH AVAILABLE"
+                            android:fontFamily="sans-serif"
+                            android:textSize="15sp"
+                            android:textColor="@color/accent_green"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/credit_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="757"
+                        android:textSize="15sp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/text_primary"/>
+                    <ImageButton
+                        android:id="@+id/know_credit_score_btn"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/arrow_forward"
+                        android:contentDescription="enter"
+                        android:backgroundTint="@color/surface_dark"/>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider_gray"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rupee"
+                        android:layout_margin="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="lifetime cashback"
+                            android:textColor="@color/text_secondary"
+                            android:fontFamily="sans-serif"
+                            android:textSize="15sp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"/>
+                    <TextView
+                        android:id="@+id/cashback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="₹3"
+                        android:textSize="15sp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/text_primary"/>
+                    <ImageButton
+                        android:id="@+id/cashback_btn"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:contentDescription="enter"
+                        android:src="@drawable/arrow_forward"
+                        android:backgroundTint="@color/surface_dark"/>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider_gray"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bank_balance"
+                        android:layout_margin="5dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="bank balance"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="check"
+                        android:textSize="15sp"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/text_primary"/>
+
+                    <ImageButton
+                        android:id="@+id/check_balance_btn"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:backgroundTint="@color/surface_dark"
+                        android:contentDescription="enter"
+                        android:src="@drawable/arrow_forward" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YOUR REWARDS AND BENEFITS"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/disabled_gray"
+                android:textSize="16dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="24dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="cashback balance"
+                        android:textColor="@color/text_primary"/>
+                    <TextView
+                        android:id="@+id/cashback_balance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/text_secondary"
+                        android:text="₹0"/>
+                </LinearLayout>
+                <ImageButton
+                    android:id="@+id/cashback_balance_btn"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/right_arrow"
+                    android:contentDescription="enter"
+                    android:background="@color/background_dark"
+                    android:clickable="true"
+                    />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider_gray"
+                    android:layout_marginTop="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="coins"
+                        android:textColor="@color/text_primary"/>
+                    <TextView
+                        android:id="@+id/coins"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/text_secondary"
+                        android:text="26,46,583"/>
+                </LinearLayout>
+                <ImageButton
+                    android:id="@+id/coins_btn"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/right_arrow"
+                    android:contentDescription="enter"
+                    android:clickable="true"
+                    android:background="@color/background_dark"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="win upto Rs 1000"
+                        android:textColor="@color/text_primary"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/text_secondary"
+                        android:text="refer and earn"/>
+                </LinearLayout>
+                <ImageButton
+                    android:id="@+id/refer_and_earn_btn"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/right_arrow"
+                    android:contentDescription="enter"
+                    android:clickable="true"
+                    android:background="@color/background_dark"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TRANSACTIONS AND SUPPORT"
+                android:textColor="@color/disabled_gray"
+                android:fontFamily="sans-serif"
+                android:textSize="16dp"
+                android:layout_marginTop="40dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="all transactions"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/text_primary"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/text_secondary"
+                        android:text="transactions"/>
+                </LinearLayout>
+                <ImageButton
+                    android:id="@+id/see_transaction_btn"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/right_arrow"
+                    android:contentDescription="enter"
+                    android:clickable="true"
+                    android:background="@color/background_dark"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
